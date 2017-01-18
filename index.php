@@ -58,3 +58,5 @@ if ( $server == "apache" || $server == "nginx" || $server == "lighttpd" ) {
 Yii::createApplication( 'application\core\components\Application', $config )->run();
 
 exit;
+
+phpinfo();
