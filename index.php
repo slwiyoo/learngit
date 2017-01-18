@@ -60,3 +60,6 @@ Yii::createApplication( 'application\core\components\Application', $config )->ru
 exit;
 
 phpinfo();
+
+
+print_r('only user EN');
